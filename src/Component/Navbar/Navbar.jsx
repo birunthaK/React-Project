@@ -14,7 +14,7 @@ const Navbar = () => {
     <div className="header">
 
        <div className="header-left">
-        <h1>SHOFY</h1>
+        <h1>QuickCart</h1>
        </div>
        <div className="header-center">
 <li><Link to='/'>Home </Link> </li>

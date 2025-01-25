@@ -9,6 +9,7 @@ import Login from './Component/Pages/Login';
 import Cart from './Component/Pages/Cart';
 import Product from './Component/Pages/Product';
 import SignUp from './Component/SignUp/SignUp';
+
 // import Product from './Components/Product';
 // import Navbar from './Components/Navbar';
 // import Login from './Components/Login';
@@ -30,6 +31,7 @@ function App() {
   return (
   
   <BrowserRouter>
+
   <Navbar/>
   <Routes>
 <Route path='/' element={<Home/>}></Route>

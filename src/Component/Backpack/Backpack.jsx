@@ -5,7 +5,7 @@ const Backpack = () => {
    <div className="backpack">
     <div className="backpack-left">
         <div className="backpack-img">
-<img src="./img/backpackMan.png" alt="" srcset="" />
+<img src="./img/backpackMan.png" alt="" srcset=""  height="270px"/>
         </div>
         <div className="backpack-content">
 <h2>MEN</h2>
@@ -15,7 +15,7 @@ const Backpack = () => {
     </div>
     <div className="backpack-right">
  <div className="backpack-img">
-<img src="./img/backpackWoman.png" alt=""  height='350px'/>
+<img src="./img/backpackWoman.png" alt=""  height='270px'/>
         </div>
         <div className="backpack-content">
         <h2>WOMEN</h2>

@@ -27,19 +27,19 @@ const Feature = () => {
         </div>
     <div className="feature-content">
         <div className="content">
-            <h2>HEADPHONES F5 BLACK</h2>
+            <h3>HEADPHONES F5 BLACK</h3>
             <h4>₹999</h4>
         </div>
         <div className="content">
-            <h2>SPEAKER BEATS PILL</h2>
+            <h3>SPEAKER BEATS PILL</h3>
             <h4>₹2990</h4>
         </div>
         <div className="content">
-            <h2>APPLE AIR PODS</h2>
+            <h3>APPLE AIR PODS</h3>
             <h4>₹4999</h4>
         </div>
         <div className="content">
-            <h2>SMARTWATCH F9 NEGRO</h2>
+            <h3>SMARTWATCH F9 NEGRO</h3>
             <h4>₹10,099</h4>
         </div>
     </div>
