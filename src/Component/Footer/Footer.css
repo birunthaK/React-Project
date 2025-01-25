@@ -1,0 +1,37 @@
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding: 50px 0px;
+    
+}
+.footer-content h1{
+color: white;
+cursor:pointer;
+}
+.footer-content li{
+    color:#6b6d6e ;
+    list-style: none;
+    line-height: 2;
+    font-size: 20px;
+    cursor: pointer;
+}
+.footer-content li:hover{
+color: #9ea2a3;
+}
+.footer-content h3{
+    color: #b4b8b9;
+    cursor:pointer;
+}
+.footer-content img{
+width: 150px;
+margin: 5px;
+}
+.logo ul{
+    display: flex;
+   gap: 20px;
+   
+}
+.logo li{
+    font-size: 27px;
+}

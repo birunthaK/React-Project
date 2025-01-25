@@ -1,0 +1,24 @@
+.data-container{
+    width:300px;
+    border: 2px solid black;
+    display:inline-block;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 7px;
+    background-color:white; 
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.data-container button{
+    padding: 9px 12px;
+    border-radius: 5px;
+    font-size: 17px;
+    text-align: center;
+    margin: 0 auto;
+}
+.data-container button:hover{
+    background-color: rgb(218, 215, 215);
+}
+.data-container i{
+    color: yellow;
+}

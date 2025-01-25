@@ -1,0 +1,81 @@
+/* navbar */
+.navbar{
+    position: sticky;
+    top: 0; /* Defines how far from the top it sticks */
+    /* z-index: 1000; */
+    background: #fff;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.header-left h1{
+    font-weight: bold;
+    font-size: xx-large;
+    margin-top: 20px;
+    cursor:pointer;
+}
+.header-center{
+    display: flex;
+   margin-top: 27px;
+  gap: 20px;
+
+}
+.header-center a{
+    text-decoration: none;
+    color:black;
+    font-weight:bold;
+}
+.header-center a:hover{
+    border-bottom:3px solid red;
+	padding-bottom:3px;
+}
+.header-center li{
+    list-style: none;
+    font-size: 25px;
+    
+   
+}
+.search{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+.search-left input{
+    border-radius: 20px;
+    font-size: medium;
+    padding-left: 7px;
+    height: 5vh;
+    width: 300px;
+    border: 2px solid rgb(105,104,104);
+}
+.search-left{
+    position: relative;
+
+}
+.search-right button{
+    border-radius: 100%;
+}
+.search-left i{
+    position: absolute;
+    display: inline-block;
+    right: 10px;
+    bottom: 9px;
+    font-size: 20px;
+    color: rgb(105,104,104);
+}
+.search-right{
+    margin-top: 5px;
+}
+.search-right i{
+    font-size: 27px;
+    /* height: 4vh; */
+    margin: 4px 0 3px 0;
+    color: white;
+    background-color: rgb(49,47,47);
+}
+.search-right button{
+    margin-right: 7px;
+    background-color: rgb(49,47,47);
+}
