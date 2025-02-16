@@ -15,10 +15,16 @@
     font-size: 17px;
     text-align: center;
     margin: 0 auto;
+background-color: teal;
+color: white;
+border: none;
 }
 .data-container button:hover{
-    background-color: rgb(218, 215, 215);
+    background-color: rgb(7, 119, 119);
 }
 .data-container i{
     color: yellow;
+}
+.view-cart{
+    background-color: #cf3d3d;
 }

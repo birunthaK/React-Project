@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useLocation } from 'react-router-dom'
 import '../CSS/Product.css'
-const Product = ({addToCart}) => {
+const Product = ({addToCart,cart}) => {
   const location=useLocation()
   const queryParams=new URLSearchParams(location.search)
  const input=queryParams.get('value')
@@ -16,6 +16,7 @@ async function fetchData(){
 useEffect(()=>{
   fetchData()
 },)
+
   return (
    <div className="product" style={{backgroundColor:"#d4d5d6"}}>
 
@@ -53,7 +54,8 @@ return(
     <span style={{color:'green'}}> 50% off</span>
   </p>
 </div>
-<button onClick={() => addToCart(product)} >Add to Cart</button>
+
+ <button onClick={() => addToCart(product)} >Add to Cart</button>
 
  {/* <p>Title: {title}</p> */}
  {/* <p>{title}</p> */}

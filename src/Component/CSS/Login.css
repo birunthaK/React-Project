@@ -6,12 +6,13 @@
     background-color:#d4d5d6 ;
 }
 .login{
-    width: 400px;
+    width: 350px;
 background-color: white;
-padding:5px 0 40px 40px ;
+padding:5px 40px 40px 40px ;
 border-radius: 10px;
 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
 .login h1{
     font-size: 23px;
     /* text-align: center; */
@@ -19,6 +20,7 @@ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 	margin-left: 120px;
 	
 }
+
 .page{
     margin-top: 10px;
     font-size: 30px;

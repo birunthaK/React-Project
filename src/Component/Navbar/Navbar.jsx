@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 
 
-const Navbar = () => {
+const Navbar = ({cart}) => {
     const [input,setInput]=useState('')
     
    
@@ -28,7 +28,7 @@ const Navbar = () => {
             <span ><i class="fa-solid fa-magnifying-glass"></i></span>
             </div>
             <div className="search-right">
-               <Link to='/cart'><button><i class="fa-solid fa-bag-shopping"></i></button></Link> 
+               <Link to='/cart'><span className='cart-count'>{cart.length}</span><button className='cart-len'><i class="fa-solid fa-bag-shopping"></i></button></Link> 
                <Link to='/login'> <button><i class="fa-solid fa-user"></i></button></Link>
             </div>
         </div>

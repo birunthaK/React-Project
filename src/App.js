@@ -32,10 +32,10 @@ function App() {
   
   <BrowserRouter>
 
-  <Navbar/>
+  <Navbar cart={cart}/>
   <Routes>
 <Route path='/' element={<Home/>}></Route>
-<Route path='/product' element={<Product addToCart={addToCart} cart={cart}/>}></Route>
+<Route path='/product' element={<Product addToCart={addToCart} cart={cart} />}></Route>
 <Route path='/login' element={<Login/>}></Route>
 <Route path='/cart' element={<Cart cart={cart}  removeFromCart={removeFromCart}/>}></Route>
 <Route path='/signup' element={<SignUp/>}></Route>
